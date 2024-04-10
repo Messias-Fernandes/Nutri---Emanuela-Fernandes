@@ -1,0 +1,15 @@
+.experiencia-bg{
+    background: var(--cor-1);
+}
+
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+    
+}
+
+.experiencia ul{
+  display: flex;
+  padding-top: 180px;
+}

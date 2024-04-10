@@ -1,5 +1,5 @@
 .header-bg{
-    background-color: #CDFFAD;
+    background-color: var(--cor-p3);
 }
 
 .header {
@@ -19,11 +19,8 @@
     font-weight: 400;
   }
 
-  .container{
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.header-menu a{
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
 }
