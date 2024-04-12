@@ -1,3 +1,54 @@
 .servicos-bg{
     background: var(--cor-1);
 }
+
+.servicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 160px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.servicos-titulo{
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.servicos-subtitulo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.servicos-nutricao{
+    background: var(--cor-0);
+    border-radius: 5rem ;
+}
+
+.servicos-nutricao img{
+    border-radius: 5rem 5rem 0 0;
+}
+
+.nutricao-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.nutricao-conteudo h3{
+    display: flex;
+    gap: 8px;
+}
+
+.seta{
+    position: absolute;
+    bottom: -10px;
+    align-self: end;
+}
