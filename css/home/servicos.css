@@ -18,7 +18,7 @@
     margin-bottom: 60px;
 }
 
-.servicos-subtitulo{
+.servicos-subtitulo {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -39,7 +39,6 @@
     flex-direction: column;
     gap: 16px;
     padding: 32px;
-    margin-bottom: 60px;
     position: relative;
 }
 
@@ -48,9 +47,13 @@
     gap: 8px;
 }
 
+.nutricao-conteudo p{
+    margin-bottom:50px;
+}
+
 .seta{
     position: absolute;
     display: block;
-    right: 25px;
-    top: 140px;
+    right: 32px;
+    top: 170px;
 }
