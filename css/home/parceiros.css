@@ -1,0 +1,14 @@
+.parceiros{
+    background: var(--cor-p2);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.parceiros-item{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
