@@ -1,0 +1,11 @@
+.contato-bg{
+    background: var( --cor-1);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contato-titulo p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}

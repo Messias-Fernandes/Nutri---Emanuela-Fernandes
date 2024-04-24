@@ -10,18 +10,18 @@
     padding-bottom: 120px;
 }
 
-.servicos-titulo{
-    grid-column: 1/-1;
+.servicos-subtitulo{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 60px;
+    justify-content: center;
+    gap: 8px;
 }
 
-.servicos-subtitulo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
+.servicos-titulo{
+    grid-column: 1/-1;
+    display: inline-block;
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .servicos-nutricao{
