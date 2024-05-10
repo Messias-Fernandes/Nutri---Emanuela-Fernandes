@@ -16,3 +16,10 @@ var fezFaculdade = true,
 
 
 console.log(nome, idade, comidaFavorita, time)
+
+//
+var nome = 'Zé';
+var idade =23;
+var time = 'flamengo';
+var namorada =;
+console.log(typeof namorada)
